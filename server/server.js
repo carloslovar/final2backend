@@ -4,7 +4,7 @@ const app = express()
 // DB connection
 const mongoose = require('mongoose')
 mongoose
-    .connect('mongodb://localhost/garaje-live-coding')
+    .connect('mongodb://localhost/tiendafinal')
     .then(() => console.log('CONECTADO A BBDD'))
 
 
